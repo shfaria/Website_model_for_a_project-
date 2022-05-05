@@ -1,0 +1,99 @@
+<div class="bottom-header menu-area sticky-top sticky-offset">
+    
+        <!-- Navigation -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-white static-top menu1 fadeInDown">
+            <div class="container-fluid">
+                
+                
+			<div class="col-md-12">
+		            <div class="row">
+                    <div class="col-md-2">
+                        <div class="web-site-title">
+                        <a href="https://dle.asiaconnect.bdren.net.bd"><strong><span style="color:#672E93;">f</span><span style="color:#005DBA;">DL</span><span style="color:#248143;">u</span><span style="color:#005DBA;">DC</span><span style="color:#672E93;">f</span></strong></a>
+                    </div>
+                    </div>
+				
+                    <div class="col-md-8">
+                        <button class="navbar-toggler navbar-dark navbar-default" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="true" aria-label="Toggle navigation" style="
+    background: #ddd;
+">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarResponsive">
+                            <div class="menu-main-menu-container"><ul id="menu-main-menu" class="main_nav"><li id="menu-item-1135" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1135"><a href="https://dle.asiaconnect.bdren.net.bd"><i class="fa fa-home"></i></a></li>
+<li id="menu-item-1136" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1136"><a href="#">About</a>
+<ul class="sub-menu">
+	<li id="menu-item-1147" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1147"><a href="https://dle.asiaconnect.bdren.net.bd/project-information/">Project Information</a></li>
+	<li id="menu-item-1148" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1148"><a href="https://dle.asiaconnect.bdren.net.bd/management-personnel/">Management Personnel</a></li>
+	<li id="menu-item-1149" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1149"><a href="https://dle.asiaconnect.bdren.net.bd/project-progress/">Project Progress</a></li>
+	<li id="menu-item-1150" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1150"><a href="https://dle.asiaconnect.bdren.net.bd/achievement-success/">Achievement/Success</a></li>
+</ul>
+</li>
+<li id="menu-item-1137" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1137"><a href="#">Activities</a>
+<ul class="sub-menu">
+	<li id="menu-item-1145" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1145"><a href="https://dle.asiaconnect.bdren.net.bd/dle-course/">DLE Courses</a></li>
+	<li id="menu-item-1144" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1144"><a href="https://dle.asiaconnect.bdren.net.bd/diginar-digital-seminar/">DigiNars (Digital Seminars)</a></li>
+	<li id="menu-item-2638" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2638"><a href="https://dle.asiaconnect.bdren.net.bd/digitalk-digital-talk/">DigiTalk (Digital Talk)</a></li>
+	<li id="menu-item-1146" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1146"><a href="https://dle.asiaconnect.bdren.net.bd/training-workshop/">Training/Workshop</a></li>
+</ul>
+</li>
+<li id="menu-item-1138" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1138"><a href="#">Events</a>
+<ul class="sub-menu">
+	<li id="menu-item-1151" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1151"><a href="https://dle.asiaconnect.bdren.net.bd/#upcommingEvent">Upcoming Events</a></li>
+	<li id="menu-item-1152" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1152"><a href="https://dle.asiaconnect.bdren.net.bd/#eventSchedule">Events Calendar</a></li>
+	<li id="menu-item-1153" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1153"><a href="https://dle.asiaconnect.bdren.net.bd/photo-gallery/">Photo Gallery</a></li>
+</ul>
+</li>
+<li id="menu-item-1139" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1139"><a href="https://dle.asiaconnect.bdren.net.bd/register-event/login">Registration</a></li>
+<li id="menu-item-1140" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1140"><a href="https://dle.asiaconnect.bdren.net.bd/faq/">FAQ</a></li>
+<li id="menu-item-1141" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-277 current_page_item menu-item-1141"><a href="https://dle.asiaconnect.bdren.net.bd/news-1/" aria-current="page">News</a></li>
+<li id="menu-item-1222" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1222"><a href="https://dle.asiaconnect.bdren.net.bd/photo-gallery/">Gallery</a></li>
+<li id="menu-item-1143" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1143"><a href="https://dle.asiaconnect.bdren.net.bd/presentation/">Download</a></li>
+<li id="menu-item-1160" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1160"><a href="http://#">Videos</a>
+<ul class="sub-menu">
+	<li id="menu-item-1154" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1154"><a href="https://dle.asiaconnect.bdren.net.bd/seminar-videos/">DigiNar-I Videos</a></li>
+	<li id="menu-item-1765" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1765"><a href="https://dle.asiaconnect.bdren.net.bd/diginar-2-progress-and-challenges-in-introducing-eduroam-and-federated-identity-under-asiconnect-geant/">DigiNar-II Videos</a></li>
+	<li id="menu-item-2333" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2333"><a href="https://dle.asiaconnect.bdren.net.bd/diginar-3-video/">DigiNar-III Videos</a></li>
+	<li id="menu-item-1408" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1408"><a href="https://dle.asiaconnect.bdren.net.bd/train-the-trainer-2-ttt-2/">TTT-2 Videos</a></li>
+	<li id="menu-item-2832" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2832"><a href="https://dle.asiaconnect.bdren.net.bd/2020/10/29/digitalk-i/">DigiTalk-1 Video</a></li>
+	<li id="menu-item-3016" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3016"><a href="https://dle.asiaconnect.bdren.net.bd/2020/12/12/digitalk-2video/">DigiTalk-2 Video</a></li>
+	<li id="menu-item-2844" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2844"><a href="https://dle.asiaconnect.bdren.net.bd/lmsvideo/">Training for LMS Video</a></li>
+	<li id="menu-item-3031" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3031"><a href="https://dle.asiaconnect.bdren.net.bd/idptraining/">Training on IDP Videos</a></li>
+	<li id="menu-item-1159" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1159"><a href="http://#">DLE Course Videos</a>
+	<ul class="sub-menu">
+		<li id="menu-item-1157" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1157"><a href="https://dle.asiaconnect.bdren.net.bd/dle-1-videos/">DLE-1 Videos</a></li>
+		<li id="menu-item-1158" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1158"><a href="https://dle.asiaconnect.bdren.net.bd/dle-course-2-ethical-hacking/">DLE-2 Videos</a></li>
+		<li id="menu-item-1827" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1827"><a href="https://dle.asiaconnect.bdren.net.bd/dle-course-3-practical-cryptography/">DLE-3 Videos</a></li>
+		<li id="menu-item-2121" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2121"><a href="https://dle.asiaconnect.bdren.net.bd/dle-course-4-introduction-to-big-data-and-hadoop/">DLE-4 Videos</a></li>
+		<li id="menu-item-2507" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2507"><a href="https://dle.asiaconnect.bdren.net.bd/dle-5-videos/">DLE-5 Videos</a></li>
+		<li id="menu-item-2683" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2683"><a href="https://dle.asiaconnect.bdren.net.bd/2020/10/22/dle-6video/">DLE-6 Videos</a></li>
+	</ul>
+</li>
+</ul>
+</li>
+<li id="menu-item-2222" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2222"><a href="#">Result</a>
+<ul class="sub-menu">
+	<li id="menu-item-2223" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2223"><a href="https://dle.asiaconnect.bdren.net.bd/2019/08/28/final-result-of-dle-course-1-cyber-security/">DLE-1</a></li>
+	<li id="menu-item-2224" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2224"><a href="https://dle.asiaconnect.bdren.net.bd/2019/12/12/final-result-of-dle-course-2-ethical-hacking-2/">DLE-2</a></li>
+	<li id="menu-item-2225" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2225"><a href="https://dle.asiaconnect.bdren.net.bd/2020/03/17/final-result-of-dle-course3-practical-cryptography/">DLE-3</a></li>
+	<li id="menu-item-2226" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2226"><a href="https://dle.asiaconnect.bdren.net.bd/2020/05/30/final-exam-result-of-dle-4-introduction-to-big-data-and-hadoop/">DLE-4</a></li>
+	<li id="menu-item-2549" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2549"><a href="https://dle.asiaconnect.bdren.net.bd/2020/09/18/resultdle5/">DLE-5</a></li>
+</ul>
+</li>
+<li id="menu-item-1142" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1142"><a href="https://dle.asiaconnect.bdren.net.bd/contacts/">Contacts</a></li>
+</ul></div>        
+                        </div>
+					</div>
+                    <div class="col-md-2">
+                        <form role="search" method="get" id="searchform" action="https://dle.asiaconnect.bdren.net.bd/">
+                            <label class="screen-reader-text" for="s"></label>
+                                <input type="text" value="" name="s" id="s" placeholder="Search"class="search_input"/>
+                            <button type="submit" id="searchsubmit" value="" class=""><i class="fa fa-search"></i></button>
+        
+                        </form>
+						<a href="https://dle.asiaconnect.bdren.net.bd/register-event/login" target="_blank"><span class="btn btn-sm btn-success portal" style="width: 100%;">Event Portal Login</span></a>
+                    </div>
+            </div>
+				</div>
+			</div>
+        </nav>

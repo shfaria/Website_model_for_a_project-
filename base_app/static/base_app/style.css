@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(6, 22, 22); 
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+.container{
+    min-height: 800px;
+}
+
+.nav-item{
+    margin-left: 5px;  
+}
+
+.footer {
+    background-color: rgba(156, 153, 153, 0.349);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 0.8rem;
+    margin-top: 100px;
+
+    width: 100%;
+
+}
+a, a:hover{
+    text-decoration: none;
+    color: black;
+   
+}
+a{
+    color: white;
+}
+
+p{
+    font-size: 1.1rem;
+}
+.navbar-nav.ms-auto.float-end.fs-5 li a{
+    color: rgba(255, 255, 255, 0.705);
+}
