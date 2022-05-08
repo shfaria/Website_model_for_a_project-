@@ -21,6 +21,7 @@ from django.conf import settings
 
 urlpatterns = [
     path('', views.home, name='home'),
+    path('about/', views.about, name='about'),
     path('dir/', views.directory),
     path('admin/', admin.site.urls),
 ]

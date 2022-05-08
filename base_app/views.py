@@ -8,6 +8,9 @@ def home(request):
     everyproject = Project.objects.all()
     return render(request, 'base_app/home.html', {'everyproject': everyproject})
 
+def about(request):
+    return render(request, 'base_app/about.html')
+
 
 
 def directory(respose):
