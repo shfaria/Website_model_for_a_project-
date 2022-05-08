@@ -1,11 +1,22 @@
 body{
-    background-color: rgb(71, 167, 167); 
-    color: white;
+    background-color: rgb(255, 255, 255); 
+    color: rgb(0, 0, 0);
     font-family: 'Open Sans', sans-serif;
+    /* padding-left: 0px;
+    padding-right: 0px; */
 }
 
 .container{
     min-height: 800px;
+}
+.container-fluid {
+    padding: 0px;
+}
+@media (max-width: 797px) {
+    body { 
+        padding-left: 0px;
+        padding-right: 0px;
+    }
 }
 
 .nav-item{
@@ -18,13 +29,12 @@ body{
 } */
 
 
-.footer {
+.footer p {
     background-color: rgba(156, 153, 153, 0.349);
     padding-top: 50px;
     padding-bottom: 50px;
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     margin-top: 100px;
-
     width: 100%;
 
 }
