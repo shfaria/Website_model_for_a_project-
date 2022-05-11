@@ -1,7 +1,10 @@
 body{
     background-color: rgb(255, 255, 255); 
     color: rgb(0, 0, 0);
-    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Open Sans', sans-serif; */
+
+    font-family: 'Nunito', sans-serif;
+    font-size: 0.9rem;
     /* padding-left: 0px;
     padding-right: 0px; */
 }
@@ -44,11 +47,11 @@ a, a:hover{
    
 }
 a{
-    color: white;
+    color: rgb(226, 34, 34);
 }
 
 p{
-    font-size: 1.1rem;
+    font-size: 0.9rem;
 }
 .navbar-nav.ms-auto.float-end.fs-5 li a{
     color: rgba(255, 255, 255, 0.705);
