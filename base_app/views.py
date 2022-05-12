@@ -1,12 +1,14 @@
 from django.shortcuts import render
-from .models import Project
+from .models import Project, New, Event
 from django.http import HttpResponse
 # Create your views here.
 
 
 def home(request):
     everyproject = Project.objects.all()
-    return render(request, 'base_app/home.html', {'everyproject': everyproject})
+    everynews = New.objects.all()
+    everyevent = Event.objects.all()
+    return render(request, 'base_app/home.html', {'everyproject': everyproject, 'everynews' : everynews, 'everyevent': everyevent})
 
 def about(request):
     return render(request, 'base_app/about.html')
