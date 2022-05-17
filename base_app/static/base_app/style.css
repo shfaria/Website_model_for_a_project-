@@ -24,17 +24,16 @@ body{
 .nav-item{
     margin-left: 5px;  
 }
+h3{
+    color: rgb(24, 24, 63);
+    
+}
 
 
 
-.footer p {
-    background-color: rgba(156, 153, 153, 0.349);
-    padding-top: 50px;
-    padding-bottom: 50px;
-    font-size: 0.7rem;
-    margin-top: 100px;
-    width: 100%;
 
+.footer{
+    color: rgba(255, 255, 255, 0.616);
 }
 
 a, a:hover{
@@ -46,7 +45,7 @@ a{
 }
 
 p{
-    font-size: 0.5rem;
+    font-size: 0.8rem;
 }
 
 .navbar-nav.ms-auto.float-end.fs-5 li a{
