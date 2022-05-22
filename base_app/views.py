@@ -13,7 +13,17 @@ def home(request):
 def about(request):
     return render(request, 'base_app/about.html')
 
+def activities(request):
+    return render(request, 'base_app/activities.html')
+
+def events(request):
+    return render(request, 'base_app/events.html')
+
+def news(request):
+    return render(request, 'base_app/news.html')
+
+def faq(request):
+    return render(request, 'base_app/faq.html')
 
 
-def directory(respose):
-    return HttpResponse("<h1>directory</h1>")
+

@@ -1,0 +1,168 @@
+{% extends 'base_app/baseline.html' %}
+{% block content %}
+{%load static%}
+
+
+<header>
+    <style>
+        nav a {
+            padding: 10px;
+            padding-left: 20px;
+        }
+
+        li {
+            font-size: 0.8rem;
+        }
+
+        p {
+            font-size: 0.8rem;
+        }
+    </style>
+</header>
+
+
+
+
+
+
+<div>
+    <div class="row bg-secondary text-center " style="min-height: 150px;">
+        <h3 class="p-3 align-self-center text-white">ACTIVITIES</h3>
+    </div>
+
+
+
+    <body data-bs-spy="scroll" data-bs-target="#navbar-example">
+
+        <div id="navbar-example" class="mx-5">
+            <ul class="nav nav-tabs p-5" role="tablist">
+                <div class="row">
+                    <div class="col-3">
+                        <nav id="navbar-example3"
+                            class="navbar navbar-light bg-light flex-column align-items-stretch p-3">
+
+                            <nav class="nav flex-column">
+                                <a class="" href="#item-1">Activity 1</a>
+                                <a class="" href="#item-2">Activity 2</a>
+                                <a class="" href="#item-3">Activity 3</a>
+                                <a class="" href="#item-4">Activity 4</a>
+                                <a class="" href="#item-5">Activity 5</a>
+                                <nav class="nav flex-column">
+                                    <a class=" ms-3 my-1" href="#item-5-1">Activity 5a</a>
+                                    <a class=" ms-3 my-1" href="#item-5-2">Activity 5b</a>
+                                </nav>
+                                <a class="" href="#item-6">Activity 6</a>
+                                <a class="" href="#item-7">Activity 7</a>
+
+
+                            </nav>
+                        </nav>
+                    </div>
+
+                    <div class="col-9">
+
+                        <div data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-offset="0" tabindex="0"
+                            class="p-3">
+                            <h4 id="item-1">Activity 1</h4>
+                            <div class="mb-5">
+                            <p>Appointment of Support Staff and Procurement of Computing Resources</p>
+
+                            <p>Computing resources</p>
+                            <ul>
+                                <li>Prepare Specifications: The brief specification is given in Appendix B.1. However,
+                                    the detail specification of the server farm needs to be prepared.</li>
+                                <li>Approval from TEIN*CC</li>
+                                <li>Sharing and Circulation of Specifications to all four (4) NRENs</li>
+                                <li>Collecting Quotations by all four (4) NRENs.</li>
+                                <li>Evaluation of Quotations by TEIN*CC</li>
+                                <li>Issuance of Purchase Order by TEIN*CC</li>
+                            </ul>
+
+                            <br>
+                            <p>
+                                Prepare and Launching of Web Portal <br>Female Engineers in each country will actively
+                                participate to develop a web portal for the project under NORDUnet mentorship. Female
+                                Interns, once they join, will take the responsibility of making regular update of the
+                                portal.
+                            </p>
+                            <br>
+                            <p>
+                                Development of a centralized Dashboard<br> In order to display the project activities in
+                                terms of conduction of number of meetings and classes conducted by each NREN with all
+                                associated data (duration, participants, used devices, operating systems and others) a
+                                “Dashboard” will be developed by the Female Engineers under NORDUnet Mentorship. <br>The
+                                Dashboard will collect meeting/class CDRs (Call Detail Recors) from each inpidual NREN
+                                and
+                                show it graphically in the Dashboard similar to the available “Dashboard” in Zoom
+                                portal.
+                            </p>
+
+                        </div>
+                            <h4 id="item-2">Activity 2</h4>
+                            <div class="mb-3">
+                                <ul>
+                                    <li>Delivery, Installation, Configuration, Testing and Commissioning of the System</li>
+                                    <li>Delivery of Servers</li>
+                                    <li>Installation of Servers</li>
+                                    <ul>
+                                        <li>Unpacking and Mounting </li>
+                                        <li>Network Connectivity
+                                            <br>using existing Data Center/Server Farm Ethernet Switch of each of the four (4) NRENs. Each NREN will ensure their bandwidth capacity. CamREN and LERNET might need to upgrade their TEIN bandwidth as all the meetings will be created in other NREN platform and there is every possibility that the TEIN network will be highly utilized.</li>
+                                        <li>Powering up the Servers <br>will use the spare power feed from existing Power System by all four (4) NRENs</li>
+                                        
+                                    </ul>
+                                    <li>Collection of Virtualization Software (Opensource)</li>
+                                    <li>Installation of Virtualization Software</li>
+                                    <li>Creating Virtual machines</li>
+                                    <li>Download and Configuration of Zoom “On-prem” Software</li>
+                                    <li>Installation of Zoom ZCs, MMRs and Meeting Connectors</li>
+                                    <li>Collection of Zoom Licenses from NORDUnet</li>
+                                    <li>Testing and Commissioning of Zoom Meetings</li>
+                                    <li>Operation and Maintenance</li>
+                                </ul>
+
+
+                            </div>
+                            <h4 id="item-3">Item 3</h4>
+                            <p>...</p>
+                            <h4 id="item-4">Item 4</h4>
+                            <p>...</p>
+                            <p>...</p>
+                            <h4 id="item-5">Item 5</h4>
+                            <p>...</p>
+                            <h5 id="item-5-1">Item 5-1</h5>
+                            <p>...</p>
+                            <h5 id="item-5-2">Item 5-2</h5>
+                            <p>...</p>
+                            <h4 id="item-5">Item 5</h4>
+                            <p>...</p>
+                            <h4 id="item-5">Item 5</h4>
+                            <p>...</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <img src="{% static 'base_app/activities.png' %}" alt="">
+            </ul>
+
+        </div>
+
+
+    </body>
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+{% endblock %}
