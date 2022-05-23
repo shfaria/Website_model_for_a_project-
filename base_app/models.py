@@ -1,4 +1,5 @@
 from django.db import models
+from django.forms import CharField
 
 class Project(models.Model):
     title = models.CharField(max_length=100)
@@ -28,3 +29,5 @@ class Event(models.Model):
 
     def __str__(self):
         return self.title
+
+

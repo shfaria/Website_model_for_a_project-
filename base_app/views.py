@@ -3,6 +3,19 @@ from .models import Project, New, Event
 from django.http import HttpResponse
 # Create your views here.
 
+# from hitcount.models import HitCount
+# from hitcount.views import HitCountMixin
+
+# first get the related HitCount object for your model object
+# hit_count = HitCount.objects.get_for_object(Project)
+
+# next, you can attempt to count a hit and get the response
+# you need to pass it the request object as well
+# hit_count_response = HitCountMixin.hit_count(request, hit_count)
+
+
+
+
 
 def home(request):
     everyproject = Project.objects.all()

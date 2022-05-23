@@ -14,6 +14,9 @@
   <!-- serach icon -->
   <link rel="stylesheet"
     href="https://fonts.sandbox.google.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+   
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet">
 
   <!-- bootstrap -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -27,13 +30,14 @@
 </head>
 
 <body>
-  <div class="container-fluid">
-    <nav class=" bg-secondary  bg-opacity-25">
+  <div class="container-fluid" style="background-color: white;">
+
+    <nav class="   bg-opacity-25" style="max-height: 20px;">
       <div class="container-lg">
         <div class="d-flex bd-highlight">
-          <div class="me-auto p-2 bd-highlight">Building e-Learning Infrastructure for South Asian Countries</div>
-          <div class="p-2 bd-highlight"><a href="" class="text-muted">Join Us</a></div>
-          <div class="p-2 bd-highlight"><a href="" class="text-muted">Log In</a></div>
+          <div class="me-auto bd-highlight"><p>Building e-Learning Infrastructure for South Asian Countries</p></div>
+          <div class="ps-2 bd-highlight"><a href="" class="text-muted"><p>Join Us</p></a></div>
+          <div class="ps-2 bd-highlight"><a href="" class="text-muted"><p>Log In</p></a></div>
         </div>
       </div>
 
@@ -41,56 +45,44 @@
 
 
 
-    <div class="container-lg">
-      <div class="d-flex justify-content-between align-items-center">
-        <h1>
-          <a href="{% url 'home' %}">
-            <img src="{% static 'base_app/logo2.png' %}" style="height: auto; width: 120px ;" class="img-fluid"
-              alt="Logo">
-          </a>
-        </h1>
-        <div>
-          <ul class="nav justify-content-center">
-            <li class="">
-              <a class="nav-link active fw-bold text-dark fs-6" aria-current="page" href="{% url 'about' %}">About</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle text-dark fs-6 fw-bold" href="{% url 'activities' %}" id="navbarDropdown" role="button"
-                data-bs-toggle="dropdown" aria-expanded="false">
-                Activites
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="{% url 'activities' %}">Activity 1</a></li>
-                <li><a class="dropdown-item" href="{% url 'activities' %}">Activity 2</a></li>
-                <li><a class="dropdown-item" href="{% url 'activities' %}">Activity 3</a></li>
-                <li><a class="dropdown-item" href="{% url 'activities' %}">Activity 4</a></li>
-                <li><a class="dropdown-item" href="{% url 'activities' %}">Activity 5</a></li>
-                <li><a class="dropdown-item" href="{% url 'activities' %}">Activity 6</a></li>
-                <li><a class="dropdown-item" href="{% url 'activities' %}">Activity 7</a></li>
-              </ul>
-            </li>
-            <li class="">
-              <a class="nav-link text-dark fs-6 fw-bold" href="{% url 'events' %}">Events</a>
-            </li>
-            <li class="">
-              <a class="nav-link text-dark fs-6 fw-bold" href="{% url 'news' %}">News</a>
-            </li>
-            <li class="">
-              <a class="nav-link text-dark fs-6 fw-bold" href="{% url 'faq' %}">FAQ</a>
-            </li>
-          </ul>
-        </div>
-        <form class="">
-          <div class="input-group">
-            <input type="text" class="form-control" placeholder="Search" aria-label="Username"
-              aria-describedby="basic-addon1">
-            <span class="input-group-text" id="basic-addon1">
-              <span class="material-symbols-outlined">
-                search
-              </span>
-            </span>
+    <div class="container-fluid  sticky-top" style="background-color: rgba(224, 232, 235, 0.582);">
+      <div class="container-lg" style="max-height: 90px;" >
+        <div class="d-flex justify-content-between align-items-center">
+            <a href="{% url 'home' %}">
+              <img src="{% static 'base_app/logo2.png' %}" style="height: auto; width: 60px ;" class="img-fluid"
+                alt="Logo">
+            </a>
+          <div>
+            <ul class="nav justify-content-center">
+              <li class="">
+                <a class="nav-link active fw-bold text-dark fs-6" aria-current="page" href="{% url 'about' %}">About</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link text-dark fs-6 fw-bold" href="{% url 'activities' %}">Activites</a>
+              </li>
+              <li class="">
+                <a class="nav-link text-dark fs-6 fw-bold" href="{% url 'events' %}">Events</a>
+              </li>
+              <li class="">
+                <a class="nav-link text-dark fs-6 fw-bold" href="{% url 'news' %}">News</a>
+              </li>
+              <li class="">
+                <a class="nav-link text-dark fs-6 fw-bold" href="{% url 'faq' %}">FAQ</a>
+              </li>
+            </ul>
           </div>
-        </form>
+          <form class="">
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="Search" aria-label="Username"
+                aria-describedby="basic-addon1">
+              <span class="input-group-text" id="basic-addon1">
+                <span class="material-symbols-outlined">
+                  search
+                </span>
+              </span>
+            </div>
+          </form>
+        </div>
       </div>
     </div>
 
@@ -122,29 +114,46 @@
 
 
 
-  <div class="footer text-center">
-    <div class="row bg-dark bg-opacity-75 p-5">
-      <div class="col-4">
+  <div class="footer">
+    
 
-        <p>
-          BdREN,
+    <div class="row bg-dark bg-opacity-75 p-5">
+      <div class="col-4 p-3">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d35748.67275736675!2d90.35602122078274!3d23.795676549481758!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c0b35ce4c261%3A0x8e25bc58452aa82a!2sUniversity%20Grants%20Commission%20of%20Bangladesh!5e0!3m2!1sen!2sbd!4v1653289133360!5m2!1sen!2sbd" width="200" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="rounded-top"></iframe>
+        <p class="py-2">
+          BeLISAC Project office: BdREN, UGC Bhaban, Dhaka.
+          <br>
+          <span class="material-icons">location_on</span>
           Plot: E-18/A, UGC Bhaban, Agargaon Administrative Area, Sher-e-Bangla Nagar, Dhaka-1207
+          <br>
+          <span class="material-icons">call</span>
           +880-9612-223736
+          <br>
+          <span class="material-icons">mail</span>
           noc@bdren.net.bd
         </p>
 
 
       </div>
-      <div class="col-4">
-        <h5>Quick Links</h5>
+      <div class="col-4 ps-5">
+        <h5 class="mb-3">Important Links</h5>
         
-        <div class="d-flex flex-column bd-highlight mb-3 align-items-center">
-          <p class="text-start p-2 bd-highlight">BdREN</p>
-          <p class="text-start p-2 bd-highlight">NREN</p>
-          <p class="text-start p-2 bd-highlight">DrukREN</p>
-          <p class="text-start p-2 bd-highlight">LEARN</p>
-          <p class="text-start p-2 bd-highlight">CAMREN</p>
-          <p class="text-start p-2 bd-highlight">LERNET</p>
+        <div class="d-flex flex-column  col-1">
+         
+        
+            <a class="py-1" href="" style="color: rgba(255, 255, 255, 0.616); font-size: 0.8rem;">AsiaConnect</a>
+            <a class="py-1" href="" style="color: rgba(255, 255, 255, 0.616); font-size: 0.8rem;">TEIN*CC</a>
+            <a class="py-1" href="" style="color: rgba(255, 255, 255, 0.616); font-size: 0.8rem;">EU</a>
+            <a class="py-1" href="" style="color: rgba(255, 255, 255, 0.616); font-size: 0.8rem;">NORDUnet</a>
+            <a class="py-1" href="" style="color: rgba(255, 255, 255, 0.616); font-size: 0.8rem;">BdREN</a>
+            <a class="py-1" href="" style="color: rgba(255, 255, 255, 0.616); font-size: 0.8rem;">NREN</a>
+            <a class="py-1" href="" style="color: rgba(255, 255, 255, 0.616); font-size: 0.8rem;">DrukREN</a>
+            <a class="py-1" href="" style="color: rgba(255, 255, 255, 0.616); font-size: 0.8rem;">LEARN</a>
+            <a class="py-1" href="" style="color: rgba(255, 255, 255, 0.616); font-size: 0.8rem;">CAMREN</a>
+            <a class="py-1" href="" style="color: rgba(255, 255, 255, 0.616); font-size: 0.8rem;">LERNET</a>
+            <a class="py-1" href="" style="color: rgba(255, 255, 255, 0.616); font-size: 0.8rem;">UGC</a>
+  
+
         </div>
         
       </div>
