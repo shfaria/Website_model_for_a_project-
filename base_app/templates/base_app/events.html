@@ -1,6 +1,27 @@
 {% extends 'base_app/baseline.html' %}
 {% block content %}
-{%load static%}
+{% load static %}
+
+<div class="container-sm">
+ 
+  <h3 class="mt-5 text-center ">EVENTS</h3>
+ 
+ 
+    {% for ev in everyevent %}
+   
+          <h5 class="">{{ ev.title }}</h5>
+          <p class="">{{ ev.description }}</p>
+          <a href="#"><button type="button" class="btn btn-outline-success">Success</button></a>
+       
+    {% endfor %}
+   
+
+</div>
+
+
+
+
+
 
 
 
