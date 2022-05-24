@@ -1,27 +1,61 @@
+from ctypes import addressof
 from django.shortcuts import render
-from .models import Project, New, Event
+from .models import Ipmodel, Project, New, Event
 from django.http import HttpResponse
+from hitcount.views import HitCountDetailView
+from django.db.models import Q
 # Create your views here.
 
-# from hitcount.models import HitCount
-# from hitcount.views import HitCountMixin
-
-# first get the related HitCount object for your model object
-# hit_count = HitCount.objects.get_for_object(Project)
-
-# next, you can attempt to count a hit and get the response
-# you need to pass it the request object as well
-# hit_count_response = HitCountMixin.hit_count(request, hit_count)
-
-
-
+def get_ip(request):
+    address = request.META.get('HTTP_X_FORWARDED_FOR')
+    if address:
+        ip = address.split(',')[-1].strip()
+    else:
+        ip = request.META.get('REMOTE_ADDR')
+    return ip
 
 
 def home(request):
     everyproject = Project.objects.all()
     everynews = New.objects.all()
     everyevent = Event.objects.all()
-    return render(request, 'base_app/home.html', {'everyproject': everyproject, 'everynews' : everynews, 'everyevent': everyevent})
+
+    ip= get_ip(request)
+    print(ip)
+    anyip = Ipmodel(ip= ip)
+    result= Ipmodel.objects.filter(Q(ip__icontains=anyip))
+
+    if len(result) >= 1:
+        print("exists")
+    else:
+        print("unique")
+
+    count= Ipmodel.objects.all().count()
+    print("total count", count)
+
+
+
+
+
+
+
+
+    return render(request, 'base_app/home.html', {'everyproject': everyproject, 'everynews' : everynews, 'everyevent': everyevent, 'count': count})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 def about(request):
     return render(request, 'base_app/about.html')
@@ -37,6 +71,3 @@ def news(request):
 
 def faq(request):
     return render(request, 'base_app/faq.html')
-
-
-

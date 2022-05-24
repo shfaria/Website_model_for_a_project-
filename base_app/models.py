@@ -1,6 +1,7 @@
 from django.db import models
 from django.forms import CharField
 
+
 class Project(models.Model):
     title = models.CharField(max_length=100)
     description = models.CharField(max_length=250)
@@ -31,3 +32,8 @@ class Event(models.Model):
         return self.title
 
 
+class Ipmodel(models.Model):
+    ip = models.CharField(max_length=100)
+
+    def __str__(self):
+        return self.ip

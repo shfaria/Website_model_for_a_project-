@@ -1,4 +1,6 @@
 {%load static%}
+{% load hitcount_tags %}
+
 
 <!doctype html>
 <html lang="en">
@@ -127,10 +129,10 @@
           Plot: E-18/A, UGC Bhaban, Agargaon Administrative Area, Sher-e-Bangla Nagar, Dhaka-1207
           <br>
           <span class="material-icons">call</span>
-          +880-9612-223736
+          <!-- +880-9612-223736 -->
           <br>
           <span class="material-icons">mail</span>
-          noc@bdren.net.bd
+          faria@bdren.net.bd, ceo@bdren.net.bd
         </p>
 
 
@@ -157,7 +159,13 @@
         </div>
         
       </div>
-      <div class="col-4">asvafhsdg</div>
+      <div class="col-4">
+        
+
+        total visitor
+        {{ count }}
+       
+      </div>
 
 
 
