@@ -1,19 +1,30 @@
 {% extends 'base_app/baseline.html' %}
 {% block content %}
 {% load static %}
-
+<div class="row bg-secondary bg-opacity-90 text-center " style="min-height: 180px;">
+            <h3 class="p-3 align-self-center text-white">EVENTS</h3>
+        </div>
 <div class="container-sm">
  
-  <h3 class="mt-5 text-center ">EVENTS</h3>
+  
  
- 
-    {% for ev in everyevent %}
-   
-          <h5 class="">{{ ev.title }}</h5>
-          <p class="">{{ ev.description }}</p>
-          <a href="#"><button type="button" class="btn btn-outline-success">Success</button></a>
-       
+ <div class="row m-5">
+    {% for event in everyevent %}
+    <div class="col-12 my-2 ">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">{{ event.title }}</h5>
+          <p class="card-text">{{ event.description }}</p>
+          <a href="#"><button type="button" class="btn btn-outline-success">More</button></a>
+        </div>
+      </div>
+    </div>
     {% endfor %}
+  
+  
+</div>
+  </div>
+  
    
 
 </div>

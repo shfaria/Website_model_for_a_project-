@@ -2,21 +2,30 @@ body{
     background-color: rgb(255, 255, 255); 
     color: rgb(0, 0, 0);
     font-family: 'Nunito', sans-serif;
+    margin: 0px;
+    padding: 0px;
 }
 body {
     position: relative;
-  }
-  
+}
+.container-fluid {
+    padding: 0px;
+    margin: 0px;
+}
+@media (max-width: 797px) {
+    body { 
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+
+
 .nav-bg{
     background-color: rgb(42, 58, 133);
 }
 
-.container{
-    min-height: 800px;
-}
-.container-fluid {
-    padding: 0px;
-}
+
+
 @media (max-width: 797px) {
     body { 
         padding-left: 0px;
