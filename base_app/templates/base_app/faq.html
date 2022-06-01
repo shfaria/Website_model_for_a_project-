@@ -1,9 +1,62 @@
 {% extends 'base_app/baseline.html' %}
 {% block content %}
 {%load static%}
+<style>
+    .card-header{
+        color: rgb(44, 44, 99);
+    }
+</style>
 
  <div class="row bg-secondary bg-opacity-90 text-center " style="min-height: 180px;">
-            <h3 class="p-3 align-self-center text-white">FAQs</h3>
+            <h3 class="p-3 align-self-center text-white">Frequenty Asked Questions</h3>
         </div>
+
+<div class="container p-3 mb-5">
+    
+
+    <div class="card m-3 mx-5" style="">
+        <div class="card-header">
+          Why 
+        </div>
+        <div class="card-body">
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet vel ratione repellat quam et exercitationem modi ut accusantium, tempore soluta.</p>
+        </div>
+    </div>
+    <div class="card m-3 mx-5" style="">
+        <div class="card-header">
+          How do I register?
+        </div>
+        <div class="card-body">
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto, ex omnis! Alias iste ea quasi adipisci possimus libero, dolor molestias vero dicta omnis ipsa fuga perspiciatis nostrum minus inventore voluptatem odio odit quisquam in nemo rem tenetur corporis, illum totam. Quasi provident totam dolores porro, sint a voluptates asperiores vero! Quos exercitationem suscipit, delectus blanditiis odio ipsum commodi accusantium dolore necessitatibus doloremque magnam pariatur ea, deserunt explicabo repudiandae dolores amet obcaecati magni officiis? Est illo saepe vero reprehenderit blanditiis doloremque molestias nam eum iure possimus harum esse aspernatur qui itaque, magni reiciendis sed, placeat neque laboriosam? Saepe ut distinctio quisquam?</p>
+        </div>
+    </div>
+    <div class="card m-3 mx-5" style="">
+        <div class="card-header">
+          Who do I contact?
+        </div>
+        <div class="card-body">
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto, ex omnis! Alias iste ea quasi adipisci possimus libero, dolor molestias vero dicta omnis ipsa fuga perspiciatis nostrum minus inventore voluptatem odio odit quisquam in nemo rem tenetur corporis, illum totam. Quasi provident totam dolores porro, sint a voluptates asperiores vero! Quos exercitationem suscipit, delectus blanditiis odio ipsum commodi accusantium dolore necessitatibus doloremque magnam pariatur ea, deserunt explicabo repudiandae dolores amet obcaecati magni officiis? Est illo saepe vero reprehenderit blanditiis doloremque molestias nam eum iure possimus harum esse aspernatur qui itaque, magni reiciendis sed, placeat neque laboriosam? Saepe ut distinctio quisquam?</p>
+        </div>
+    </div>
+    <div class="row m-5">
+        <h6 class="px-5">Still having trouble? Post your questions below.</h6>
+        
+        <div class="col mx-5">
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-secondary mb-3">Post</button>
+        </div>
+    </div>
+    
+    
+</div>
+
+
 
 {% endblock %}
