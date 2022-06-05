@@ -19,6 +19,7 @@ from base_app import views
 from django.conf.urls.static import static
 from django.conf import settings
 from django.urls import include
+from base_app.views import Search
 
 urlpatterns = [
     path('', views.home, name='home'),
@@ -27,6 +28,8 @@ urlpatterns = [
     path('events/', views.events, name='events'),
     path('news/', views.news, name='news'),
     path('faq/', views.faq, name='faq'),
+    path("search/", Search.as_view(), name="search_results"),
+
     # path('blog/', include('blog.urls')),
     path('admin/', admin.site.urls),
 ]

@@ -79,17 +79,21 @@
               </li>
             </ul>
           </div>
-          <form class="">
+
+          <form class="" action="{% url 'search_results' %}" method="get">
             <div class="input-group">
-              <input type="text" class="form-control" placeholder="Search" aria-label="Username"
+              <input name="q" type="text" class="form-control" placeholder="Search" aria-label="Username"
                 aria-describedby="basic-addon1">
-              <span class="input-group-text" id="basic-addon1">
-                <span class="material-symbols-outlined">
+              <!-- <input type="submit" value="OK"> -->
+                <!-- <button type="submit" class="btn btn-primary">Submit</button> -->
+              <span class="input-group-text" id="basic-addon1" type="submit">
+                <span class="material-symbols-outlined" >
                   search
                 </span>
               </span>
             </div>
           </form>
+
         </div>
       </div>
     </div>

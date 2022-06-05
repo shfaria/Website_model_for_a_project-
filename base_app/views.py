@@ -1,7 +1,13 @@
 from ctypes import addressof
+from urllib import request
 from django.shortcuts import render
 from .models import Ipmodel, Project, New, Event
 from django.http import HttpResponse
+from django.db.models import Q
+from itertools import chain
+from django.views.generic import TemplateView, ListView
+
+
 
 
 
@@ -10,7 +16,7 @@ from django.http import HttpResponse
 
 def home(request):
     everyproject = Project.objects.all()
-    everynews = New.objects.all()
+    everynews = list(reversed(New.objects.all()))
     everyevent = Event.objects.all()
 
     
@@ -38,3 +44,23 @@ def news(request):
 
 def faq(request):
     return render(request, 'base_app/faq.html')
+
+
+
+
+
+class Search(ListView):
+    model = Ipmodel, Project, New, Event
+    template_name = 'base_app/search_results.html'
+    
+    def get_queryset(self):
+        query = self.request.GET.get("q") 
+        cities =  Project.objects.filter(
+            Q(title__icontains=query) | Q(title__icontains=query),
+        ) 
+        foods =  New.objects.filter(
+            Q(title__icontains=query) | Q(title__icontains=query),
+        )
+        object_list = chain(cities, foods)
+        return object_list
+ 

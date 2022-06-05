@@ -1,0 +1,18 @@
+{% extends 'base_app/baseline.html' %}
+{% block content %}
+{%load static%}
+
+
+
+<h4>searched
+</h4>
+
+<ul>
+    {% for city in object_list %}
+      <li>
+        {{ city.title }} 
+      </li>
+    {% endfor %}
+</ul>
+
+{% endblock %}
