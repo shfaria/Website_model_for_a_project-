@@ -7,12 +7,16 @@
 <h4>searched
 </h4>
 
-<ul>
-    {% for city in object_list %}
-      <li>
+
+    {% for city in results %}
+      <div>
         {{ city.title }} 
-      </li>
+      </div>
     {% endfor %}
-</ul>
+
+
+
+
+
 
 {% endblock %}
