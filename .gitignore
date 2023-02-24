@@ -1,6 +1,0 @@
-__pycache__/
-migrations/
-settings.py
-.env
-.gitignore
-media/
